@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+   
+}
+#header{
+    height: 75px;
+    font-family:'Source Sans Pro', sans-serif ;
+    position: relative;
+    font-size: 18px;
+   margin-right: 10px;
+}
+#header .logo-container{
+    height: inherit;
+    display: inline-block;
+    
+}
+#header .logo-container .logo{
+    height: inherit;
+    padding: 10px;
+}
+#header .nav-bar{
+    display:inline-block;
+    position: absolute;
+    top :50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    
+    height: 100%;
+  
+}
+#header .nav-bar li{
+    float: left;
+    list-style: none;
+    padding: 16px;
+     height: 100%;
+     display: flex;
+     align-items: center;/*ben trong dan 2 ben*/
+    justify-content: center;/*tren duoi*/
+   
+}
+#header .nav-bar i{
+    padding: 4px;
+}
+#header .nav-bar li:hover{
+    background-color: #059862;
+    color: aliceblue;
+}
+#header .right-menu{
+   right:0;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+#header .right-menu div{
+    float: left;
+    margin-left: 16px;
+    padding: 12px 24px;
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    border-radius: 32px;
+  
+}
+#header .right-menu .pro,
+#header .right-menu .website{
+    background-color: #282A35;
+   
+    font-weight: bold;
+    color: aliceblue;
+    
+ 
+
+}
+#header .right-menu .website{
+    background-color: pink;
+    color: black;
+}
+#header .right-menu .login{
+    background-color: #059862;
+}
+#header .right-menu .get-certified:hover{
+    background-color: #059862;
+}
+#header .right-menu span{
+    color: black;
+    font-size: 8px;
+    border-radius: 12px;
+    background-color: #fff;
+    text-transform: uppercase;
+
+    margin-left: 10px;
+    padding: 6px 8px ;
+    border: 1px solid black;
+}
+#header .right-menu .pro:hover,
+#header .right-menu .login:hover,
+#header .right-menu .get-certified:hover,
+#header .right-menu .website:hover
+{
+    filter: opacity(80%);
+}
+#header .right-menu .dark,
+#header .right-menu .search
+{
+    padding: 5px;
+}
+#header .right-menu .world{
+    padding: 5px;
+}
+#header .right-menu .dark:hover,
+#header .right-menu .search:hover,
+#header .right-menu .world:hover{
+    color: #059862;
+}
+#content{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    background-color: #282A35;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#content h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+#content h2{
+    text-align: center;
+    color: #ffc0c7;
+   font-size: 23px;
+    margin: 30px 0px 10px;
+}
+#content #search{
+    background-color: #fff;
+    padding: 10px 10px 10px 25px;
+    font-size: 15px;
+    display: block;
+    
+    
+}
+
+
+
+
+
+
+
+
+
