@@ -203,13 +203,100 @@
     color:#059862 ;
 }
 .html{
-    height: 500px;
+    height: 550px;
     background-color:#d9eee1 ;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*flex-basis: 60%;*/
 }
+.html .left-content h1{
+    color: black;
+    display: block;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+ 
 
+}
+.html .left-content{
+   /* flex-basis: 40%;*/
+    padding: 3%;
+    text-align: center;
+   width: 50%;
+}
+.html .left-content ul li{
+    padding-top: 40px;
+    list-style-type: none;
+    
+}
+.html .code-example .code-container .try-it-yourself,
+.html .left-content ul li a{
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 8px 46px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    width: 200px;
+}
+.html .left-content ul li a:hover{
+    filter: opacity(80%);
+}
+.html .left-content p{
+    font-size: 17px;
 
+}
+.html .left-content .learn{
+    background-color: #059862;
+    color: #d9eee1;
+   
+}
+.html .left-content .video{
+    background-color: #fff4a3;
+    color: black;
+}
+.html .left-content .reference{
+    background-color: black;
+    color: #fff;
+}
+.html .left-content .buy{
+    background-color: #ffc0c7;
+    color: black;
+}
+.html .code-example .code-container{
+  
+    padding: 16px;
+    background-color: #e7e9eb;
+    display: block;
+    height: 80%;
+   
 
+}
+.html .code-example .code-container h3{
+    font-weight: 400;
+    margin: 10px;
+    font-size: 24px;
+    color: #000;
+}
+.html .code-example{
+    margin-top: 50px;
+    width: 45%;
+    height: 100%;
+}
+.html .code-example .code-container .code{
+    background-color: #fff;
 
+    padding: 16px 16px 66px 16px;
+}
+.html .code-example .code-container .try-it-yourself{
+    list-style-type: none;
+    background-color: #059862;
+    color: #fff;
+ 
+}
 
 
 
