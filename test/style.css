@@ -340,6 +340,85 @@
     line-height: 24px;
 
 }
+.recommend{
+    padding-top: 64px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#282A35 ;
+    display: flex;
+}
+.recommend .course{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc0c7;
+    flex-direction: column;
+    margin-bottom: 48px;
+    border-radius: 6px;
+   padding: 25px ;
+}
+.recommend .course h3{
+    font-size: 45px;
+    color: #282A35;
+}
+.recommend .course p{
+    font-size: 18px;
+    color: #3a3a3a;
+    font-weight: bold;
+}
+.recommend .course h3,
+.recommend .course p,
+.recommend .course a{
+    margin-bottom: 32px;
+}
+.recommend .course a{
+    display: block;
+    color: #e7e9eb;
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 8px ;
+    width: 35%;
+    text-align: center;
+    font-weight: bold;
+    background-color: #282A35;
+}
+.pink {
+background-color:#ffc0c7 !important;
+}  
+.yellow{
+    background-color: #fff4a3!important;
+}
+.white{
+    background-color:#d9eee1!important ;
+}
+.lightblue{
+    background-color: #96D4D4!important;
+}
+.green{
+    background-color: #96D4D4!important;
+}
+.white-2{
+    background-color: #e7e9eb!important;
+}
+.cpp-and-csharp{
+    display: flex;
+    width: 45%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 
+}
+.languages{
+    width: 20%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.languages div{
+    justify-content: center;
+    
+}
 
 
